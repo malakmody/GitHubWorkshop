@@ -1,0 +1,1 @@
+const genRandNum = (num)=> Math.random() * num;
