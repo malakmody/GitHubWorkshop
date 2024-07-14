@@ -5,11 +5,7 @@ const findMean = (...nums)=> {
 }
 const findSmallest = (arr) =>{
     let smallest = arr[0];
-<<<<<<< HEAD
-    for (let i = 1; i < arr.length; i++) {
-=======
       for (let i = 1; i < arr.length; i++) {
->>>>>>> feature4
       if (arr[i] < smallest) {
         smallest = arr[i];
       }
@@ -17,7 +13,7 @@ const findSmallest = (arr) =>{
   
     return smallest;
   }
-  const findLargest = (arr) =>{
+const findLargest = (arr) =>{
     let largest = arr[0];
       for (let i = 1; i < arr.length; i++) {
       if (arr[i] > largest) {
