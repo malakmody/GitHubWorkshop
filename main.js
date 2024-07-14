@@ -28,3 +28,8 @@ const getRandUser =()=>{
     return users[ genRandNum(users.length)]
 }
 
+const getRandUser =()=>{
+    const users = [{name:"abdallah",score:100},{name:"ahmed",score:100},{name:"ali",score:100}]
+    const randIndex = genRandNum(users.length)
+    return users[randIndex]
+}
