@@ -23,4 +23,8 @@ const findLargest = (arr) =>{
   
     return largest;
   }
+const getRandUser =()=>{
+    const users = [{name:"abdallah",score:100},{name:"ahmed",score:100},{name:"ali",score:100}]
+    return users[ genRandNum(users.length)]
+}
 
